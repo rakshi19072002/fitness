@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fitness Website</title>
+
+    <!-- swiper CSS cdn link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- custom CSS file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome cdn link  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo">FITNESS <span>FIRST</span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#featuredclasses">featured classes</a>
+            <a href="#schedules">our schedules</a>
+            <a href="#trainers">trainers</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+
+        <div class="icons">
+            <a href="form.html" class="btn">Become a Member</a>
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+        </div>
+
+    </header>
+
+    <!-- header section ends  -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box" style="background:linear-gradient(rgba(107, 66, 66, 0.3),rgba(136, 98, 98, 0.3)), url(model\ home.jpg);">
+                    <div class="content">
+                        <h3>JOIN OUR FITNESS  CLASSESS NOW!!!</h3>
+                        <p>To stay on top of your fitness goals, you need to be self-motivated, and for those times self-motivation doesn’t work, there are motivational gym quotes you can use as pick-me-ups</p>
+                        <div class="button">
+                            <a href="form.html" class="btn" id="get-started-button">Get Started</a>
+<div id="menu-btn" class="fas fa-bars"></div>
+
+<script>
+document.getElementById("get-started-button").addEventListener("click", function(event) {
+  event.preventDefault(); // Prevents the default behavior of the link
+  window.location.href = "form.html"; // Redirects to form.html
+});
+</script>
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box" style="background: linear-gradient(rgba(107,66,66,.3),rgba(136,98,98,.3)), url(women.jpg);">      
+                                  <div class="content">
+                        <h3>HEALTH IS WEALTH</h3>
+                        <p>All progress takes place outside the comfort zone.</p>
+                        <div class="button">
+                            <a href="form.html" class="btn" id="get-started-button">Get Started</a>
+                            <div id="menu-btn" class="fas fa-bars"></div>
+                            
+                            <script>
+                            document.getElementById("get-started-button").addEventListener("click", function(event) {
+                              event.preventDefault(); // Prevents the default behavior of the link
+                              window.location.href = "form.html"; // Redirects to form.html
+                            });
+                            </script>   
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends  -->
+
+    <!-- featured section starts  -->
+
+    <section class="feature" id="featuredclasses">
+
+        <h1 class="heading"> FEATURED <span>CLASSES</span></h1>
+
+        <div class="swiper feature-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="personal1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">Rs.7500</div>
+                        <h3>PERSONAL TRAINING</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="gym.webp" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">Rs.5500</div>
+                        <h3>GYMNASTICS</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="NUTRITION.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">Rs.4500</div>
+                        <h3>NUTRITION and WELLNESS</h3>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="YOGA.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">Rs.5000</div>
+                        <h3>YOGA</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- featured section ends  -->
+
+   <!-- Schedule section starts  -->
+
+   <section class="schedule" id="schedules">
+
+    <h1 class="heading"><span>OUR</span>SCHEDULES</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="content">
+                <h3>YOGA</h3>
+                <p>Yoga offers a holistic approach to wellness, combining physical postures, controlled breathing, and meditation to enhance flexibility, strength, and mental clarity. Its benefits include improved physical fitness, stress reduction, and enhanced mental and emotional well-being.</p>
+            </div>
+            <div class="icons">
+                <span><i class="far fa-clock"></i> 7:00 AM</span>
+                <span><i class="fad fa-calendar-alt"></i>Oct 1, 2023</span>
+            </div>
+            <a href="#" class="btn">Rs.5k</a>
+        </div>
+        
+        <div class="box">
+            <img src="YOGA.jpeg" alt="">
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h3>PERSONAL TRAINING</h3>
+                <p>Personal training involves one-on-one fitness coaching tailored to an individual's specific goals and needs. It provides personalized exercise routines, nutritional guidance, and motivation, allowing clients to achieve their fitness objectives more effectively and efficiently.</p>
+            </div>
+            <div class="icons">
+                <span><i class="far fa-clock"></i> 4:00 PM</span>
+                <span><i class="fad fa-calendar-alt"></i>Sep 26, 2023</span>
+            </div>
+            <a href="#" class="btn">Rs.7.5k</a>
+        </div>
+
+        <div class="box">
+            <img src="personal.jpg" alt="">
+        </div>
+
+        <div class="box">
+            <img src="NUTRITION.png" alt="">
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h3>NUTRITION AND WELLNESS</h3>
+                <p>Wellness and nutrition are interconnected aspects of a healthy lifestyle. Wellness involves maintaining overall well-being, while nutrition focuses on providing the body with essential nutrients through dietary choices, contributing to physical health and mental vitality.</p>
+            </div>
+            <div class="icons">
+                <span><i class="far fa-clock"></i> 10:00 AM</span>
+                <span><i class="fad fa-calendar-alt"></i>Oct 5,2023</span>
+            </div>
+            <a href="#" class="btn">Rs4.5k</a>
+        </div>
+
+        <div class="box">
+            <img src="gym.webp" alt="">
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h3>GYMNASTICS</h3>
+                <p>Gymnastics is a dynamic and physically demanding sport that combines strength, flexibility, and agility in graceful and acrobatic routines. Athletes perform a variety of artistic movements and exercises on apparatus such as the balance beam, uneven bars, and vault, showcasing precision, coordination, and athleticism.</p>
+            </div>
+            <div class="icons">
+                <span><i class="far fa-clock"></i> 8:00 AM</span>
+                <span><i class="fad fa-calendar-alt"></i>Sep 27, 2023</span>
+            </div>
+            <a href="#" class="btn">Rs.5.5k</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Schedule section ends  -->
+
+    <!-- trainer section starts  -->
+
+    <section class="trainers" id="trainers">
+
+        <h1 class="heading">Meet Our <span> Expert Trainers</span></h1>
+
+        <div class="swiper trainer-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="gym coach1.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        <h1>Rakesh Maiya</h1>
+                        <p>Gymastics Trainer</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="nutrition trainer.webp" alt="">
+                    </div>
+                    <div class="name">
+                        <h1>Sandhya Srivatsav</h1>
+                        <p>Nutrition Coach</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="personal coach.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        <h1>Riyaz Shah</h1>
+                        <p>Personal Training Coach</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="yoga trainer.jpg" alt="">
+                    </div>
+                    <div class="name">
+                        <h1>Veda Kulkarni</h1>
+                        <p>Yoga Trainer</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- trainer section ends  -->
+
+    <!-- testimonial section starts  -->
+
+    <section class="testimonial">
+
+        <h1 class="heading">TESTIMONIAL</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="nayan mishra.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h1>Dr.Nayan Mishra</h1>
+                    <p>Doctor, <span>Astra Hospitals</span> </p>
+                </div>
+                <p> My experience at the Fitness Studio has been life-changing. The personalized training, expert guidance, and holistic approach to fitness have helped me achieve my goals and become stronger and healthier. I highly recommend the Fitness Studio to anyone looking to transform their fitness journey..</p>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="Ritika.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h1>Ritika Prasad</h1>
+                    <p>CEO, <span>Vibo company</span> </p>
+                </div>
+                <p> The yoga sessions at the Fitness Studio have been a transformative journey for me. The skilled instructors and serene atmosphere have deepened my practice and improved my mental well-being. I highly recommend the Fitness Studio for anyone seeking a holistic approach to health through yoga.</p>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="priyanshu.jpeg" alt="">
+                </div>
+                <div class="name">
+                    <h1>Priyanshu Gupta</h1>
+                    <p>Entreprenuer <span>Avis Innovations</span> </p>
+                </div>
+                <p> My experience with nutrition and wellness training at the Fitness Studio has been eye-opening and life-changing. The expert guidance and personalized approach helped me make sustainable changes to my diet and lifestyle, resulting in improved energy levels and overall well-being. I highly recommend the Fitness Studio to anyone looking to achieve their health and wellness goals through a comprehensive and tailored approach.</p>
+            </div>
+           
+
+
+        </div>
+
+    </section>
+
+    <!-- testimonial section ends  -->
+
+   <!-- blogs section starts  -->
+
+   <section class="blogs">
+
+    <h1 class="heading">Have a Look <span> at Our Blogs</span></h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="blog1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Benefits of having a positive attitide towards fitness</h3>
+                    <span><i class="fad fa-calendar-alt"></i>July 11, 2021</span>
+                    <p>Having a positive attitude towards fitness can significantly enhance your overall well-being by boosting your motivation and consistency in workouts. It can help reduce stress, improve mental health, and enhance self-esteem, creating a more balanced and fulfilled lifestyle. Embracing a positive mindset not only makes fitness more enjoyable but also increases the likelihood of achieving and maintaining your health and fitness goals..</p>
+                </div> 
+                
+            </div>
+
+            
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="blog2.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fitness for life</h3>
+                    <span><i class="fad fa-calendar-alt"></i>Dec 20, 2022</span>
+                    <p> In my "Fitness for Life" blog, I'm committed to sharing insights on how fitness isn't just a short-term goal but a lifelong journey. I'll delve into sustainable fitness practices, nutrition, and mindset shifts that empower you to make lasting improvements in your health. Join me on this path to long-term well-being and vitality.
+        
+                    </p>
+                    <p>-Karthik Gunjan,Fitness Freak</p>
+                </div>
+                
+            </div>
+
+          
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="blog3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>The inseperable trio</h3>
+                    <span><i class="fad fa-calendar-alt"></i>Jan 25, 2020</span>
+                    <p>In the pursuit of holistic well-being, fitness, nutrition, and wellness form an inseparable trio. Exercise fuels our physical vitality, while proper nutrition provides the essential building blocks for a healthy body. Wellness encompasses the mental and emotional aspects, creating a harmonious balance that leads to a fulfilling, healthy life..</p>
+                </div>
+                
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="blog4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Badmintion and fitness are directly Proportional</h3>
+                    <span><i class="fad fa-calendar-alt"></i>May 22, 2023</span>
+                    <p>As a passionate badminton player, maintaining optimal health is not just a choice but a necessity. The agility, endurance, and precision required on the court demand a well-tuned body. Prioritizing fitness, nutrition, and wellness not only enhances my performance but also ensures a sustainable and enduring badminton career, allowing me to keep smashing those shuttlecocks with vigor and joy..</p>
+                <p>-Sankarsh ,Badminton Player</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends  -->
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer" id="contact">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h1>ABOUT</h1>
+                <div class="text">
+                    <p>Our fitness studio is a dedicated space designed to provide individuals with a focused environment for exercise and physical training.Our studios typically offers a variety of fitness classes, equipment, and personalized training programs to help people achieve their health and fitness goals in a motivating and supportive setting.
+                    </p>
+                    <div class="icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h1>CONTACT</h1>
+                <div class="icons">
+                    <a href="#"><i class="fas fa-map-marker-alt"></i>#213, "Fitness Studio",JP Nagar ,Bengaluru-54</a>
+                    <a href="#"><i class="fas fa-phone-alt"></i>080 26669876</a>
+                    <a href="#"><i class="fas fa-envelope"></i>fitness.studio123@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h1>QUICK LINKS</h1>
+                <div class="icons">
+                    <a href="#home">HOME</a>
+                    <a href="#featuredclasses">FEATURED CLASSES</a>
+                    <a href="#schedules">OUR SCHEDULES</a>
+                    <a href="#trainers">TRAINERS</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="credit">Created By <span>COFFEE Designers</span> |All Rights Reserved|</div>
+
+    </section>
+
+    <!-- footer section ends  -->
+
+
+
+
+
+
+
+
+    <!-- swiper JS cdn link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+
+
+    <!-- Custom JS file link  -->
+    <script src="script.js"></script>
+</body>
+</html>
